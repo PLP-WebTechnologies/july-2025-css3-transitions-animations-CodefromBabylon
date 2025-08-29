@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS & JavaScript Animation Showcase</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>CSS & JavaScript Animation Showcase</h1>
+        <p>Demonstrating transitions, animations, and interactive effects</p>
+    </header>
+    
+    <!-- Part 1: CSS3 Transitions and Animations -->
+    <section id="part1">
+        <h2>Part 1: CSS3 Transitions and Animations</h2>
+        
+        <h3>Button Hover Effects</h3>
+        <div class="demo-container">
+            <button class="btn">Hover Me</button>
+        </div>
+        
+        <h3>Fade Transition</h3>
+        <div class="demo-container">
+            <div class="box fade-box"></div>
+            <button class="btn" id="fadeBtn">Toggle Fade</button>
+        </div>
+        
+        <h3>Slide Transition</h3>
+        <div class="demo-container">
+            <div class="box slide-box"></div>
+            <button class="btn" id="slideBtn">Slide Right</button>
+        </div>
+        
+        <h3>Rotate Transition</h3>
+        <div class="demo-container">
+            <div class="box rotate-box"></div>
+            <button class="btn" id="rotateBtn">Rotate 360°</button>
+        </div>
+        
+        <h3>Continuous Animations</h3>
+        <div class="demo-container">
+            <div class="box pulse"></div>
+            <div class="box bounce"></div>
+        </div>
+    </section>
+    
+    <!-- Part 2: JavaScript Functions -->
+    <section id="part2">
+        <h2>Part 2: JavaScript Functions — Scope, Parameters & Return Values</h2>
+        
+        <h3>Function with Parameters and Return Value</h3>
+        <div class="demo-container">
+            <input type="number" id="num1" placeholder="Enter number" value="5">
+            <input type="number" id="num2" placeholder="Enter number" value="3">
+            <button class="btn" id="calculateBtn">Calculate Sum</button>
+            <div id="result"></div>
+        </div>
+        
+        <h3>Scope Demonstration</h3>
+        <div class="demo-container">
+            <button class="btn" id="scopeBtn">Test Scope</button>
+            <div id="scopeResult"></div>
+        </div>
+    </section>
+    
+    <!-- Part 3: Combining CSS Animations with JavaScript -->
+    <section id="part3">
+        <h2>Part 3: Combining CSS Animations with JavaScript</h2>
+        
+        <h3>Card Flip Animation</h3>
+        <div class="demo-container">
+            <div class="card" id="card">
+                <div class="card-inner">
+                    <div class="card-front">Front</div>
+                    <div class="card-back">Back</div>
+                </div>
+            </div>
+            <button class="btn" id="flipCardBtn">Flip Card</button>
+        </div>
+        
+        <h3>Modal Animation</h3>
+        <div class="demo-container">
+            <button class="btn" id="openModalBtn">Open Modal</button>
+            
+            <div class="modal" id="modal">
+                <div class="modal-content">
+                    <h3>Animated Modal</h3>
+                    <p>This modal appears with a smooth fade and slide animation.</p>
+                    <button class="btn" id="closeModalBtn">Close</button>
+                </div>
+            </div>
+        </div>
+        
+        <h3>Loader Animation Control</h3>
+        <div class="demo-container">
+            <button class="btn" id="startLoaderBtn">Start Loader</button>
+            <button class="btn" id="stopLoaderBtn">Stop Loader</button>
+            <div class="loader" id="loader"></div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
